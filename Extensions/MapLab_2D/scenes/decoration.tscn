@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bxk5hkc76kvnc"]
+
+[ext_resource type="Texture2D" uid="uid://b7cqllyn8kkoe" path="res://assets/obstacle.png" id="1_1wwvk"]
+
+[node name="Decoration" type="Node2D" unique_id=2131487494]
+
+[node name="Obstacle" type="Sprite2D" parent="." unique_id=1519896525]
+texture = ExtResource("1_1wwvk")

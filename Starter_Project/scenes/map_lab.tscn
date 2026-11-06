@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bvx8ah4ouocnx"]
+
+[ext_resource type="PackedScene" path="res://scenes/decoration.tscn" id="1_decor"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_4thgr"]
+
+[node name="Map" type="Node2D" unique_id=409313961]
+
+[node name="Background" type="ColorRect" parent="." unique_id=1078043852]
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+color = Color(0.043137256, 0.09019608, 0.2, 1)
+
+[node name="Decoration" parent="." unique_id=2131487494 instance=ExtResource("1_decor")]
+position = Vector2(240, 180)
+
+[node name="Decoration2" parent="." unique_id=1920345668 instance=ExtResource("1_decor")]
+position = Vector2(720, 180)
+
+[node name="Player" parent="." unique_id=119988134 instance=ExtResource("2_4thgr")]
+position = Vector2(480, 476)

@@ -1,0 +1,8 @@
+.godot/
+.env
+.env.*
+*.local.md
+AGENTS.md
+ai_learnings.md
+skill.md
+ai_private_notes.md
